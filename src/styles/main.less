@@ -1,0 +1,27 @@
+@corDeFundo: #000;
+@corDoBtn: yellow;
+@corDoTexto: #000;
+@fontPrincipal: Roboto, sans-serif;
+
+body{
+    background-color: @corDeFundo;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    button{
+        background-color: @corDoBtn;
+        color: @corDoTexto;
+        align-items: center;
+        font-family: @fontPrincipal;
+        font-weight: bold;
+        font-size: 4em;
+        cursor: pointer;
+        border-radius: 8px;
+
+        &:hover{
+            background-color: rgb(105, 105, 30);
+        }
+    }
+}
